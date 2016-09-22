@@ -1,0 +1,13 @@
+centavos= float(input("digite un valor en centavo "))
+
+dol= centavos / 100
+EUR= dol * 0.8965
+YEN= dol * 101.5744
+BP= dol * 0.07702
+MXN= dol * 19.7843
+
+print("su valor en dolar es: " + str(dol))
+print("su valor en euro es: " + str (EUR))
+print(" su valor en yen es : " + str (YEN))
+print("su valor en BP es: " + str (BP))
+print("su valor en MXN es: " + str (MXN))
